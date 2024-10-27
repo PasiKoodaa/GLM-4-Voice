@@ -17,7 +17,7 @@ A more detailed technical report will be published later.
 |         Model         | Type |      Download      |
 |:---------------------:| :---: |:------------------:|
 | GLM-4-Voice-Tokenizer | Speech Tokenizer | [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-tokenizer) |
-|    GLM-4-Voice-9B     | Chat Model |  [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-9b)
+|    GLM-4-Voice-9B     | Chat Model |  [🤗 Huggingface](https://huggingface.co/cydxg/glm-4-voice-9b-int4)
 | GLM-4-Voice-Decoder   | Speech Decoder |  [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-decoder)
 
 ## Usage
