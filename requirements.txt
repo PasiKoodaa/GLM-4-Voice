@@ -31,6 +31,9 @@ tensorboard==2.14.0
 transformers==4.44.1
 uvicorn==0.32.0
 wget==3.2
-WeTextProcessing==1.0.3
+WeTextProcessing==1.0.3; sys_platform == 'linux'
 torch==2.3.0
 torchaudio==2.3.0
+matcha-tts
+accelerate
+bitsandbytes
