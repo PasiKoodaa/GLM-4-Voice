@@ -60,7 +60,7 @@ You can then access the web demo at http://127.0.0.1:8888.
 * Gradio’s streaming audio playback can be unstable. The audio quality will be higher when clicking on the audio in the dialogue box after generation is complete.
 
 ## Examples
-We provide some dialogue cases for GLM-4-Voice, including emotion control, speech rate alteration, dialect generation, etc. (The examples are in Chinese.)
+We provide some dialogue cases for GLM-4-Voice, including emotion control, speech rate alteration, dialect generation, etc. (The examples are in English.)
 
 * Use a gentle voice to guide me to relax
 
