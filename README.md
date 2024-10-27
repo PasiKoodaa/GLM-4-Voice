@@ -64,7 +64,9 @@ We provide some dialogue cases for GLM-4-Voice, including emotion control, speec
 
 * Use a gentle voice to guide me to relax
 
-https://github.com/user-attachments/assets/4e3d9200-076d-4c28-a641-99df3af38eb0
+
+https://github.com/user-attachments/assets/5f14862c-8c52-471e-ac7c-0c3d93f246b3
+
 
 * Use an excited voice to commentate a football match
 
@@ -72,7 +74,7 @@ https://github.com/user-attachments/assets/0163de2d-e876-4999-b1bc-bbfa364b799b
 
 * Tell a ghost story with a mournful voice
 
-https://github.com/user-attachments/assets/a75b2087-d7bc-49fa-a0c5-e8c99935b39a
+https://github.com/user-attachments/assets/90534be5-9aa6-4f0b-883d-3f4996a12c8f
 
 * Introduce how cold winter is with a Northeastern dialect
 
