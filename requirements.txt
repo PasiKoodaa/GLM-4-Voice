@@ -34,6 +34,6 @@ wget==3.2
 WeTextProcessing==1.0.3; sys_platform == 'linux'
 torch==2.3.0
 torchaudio==2.3.0
-matcha-tts
+# matcha-tts
 accelerate
 bitsandbytes
