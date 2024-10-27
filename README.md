@@ -1,3 +1,5 @@
+Read this in [Chinese](./README_ch.md)
+
 # GLM-4-Voice
 GLM-4-Voice is an end-to-end voice model launched by Zhipu AI. GLM-4-Voice can directly understand and generate Chinese and English speech, engage in real-time voice conversations, and change attributes such as emotion, intonation, speech rate, and dialect based on user instructions.
 
