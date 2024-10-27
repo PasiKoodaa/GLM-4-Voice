@@ -139,4 +139,3 @@ class AudioDecoder:
         tts_speech = torch.cat(tts_speechs, dim=-1).cpu()
 
         return tts_speech.cpu()
-
