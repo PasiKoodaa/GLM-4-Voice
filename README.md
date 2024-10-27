@@ -1,6 +1,6 @@
 Read this in [Chinese](./README_ch.md)
 
-Thank you, cydxg, for quantizing this model: https://huggingface.co/cydxg/glm-4-voice-9b-int4
+Thank you, cydxg, for quantizing and providing code for this model: https://huggingface.co/cydxg/glm-4-voice-9b-int4 
 
 # GLM-4-Voice
 GLM-4-Voice is an end-to-end voice model launched by Zhipu AI. GLM-4-Voice can directly understand and generate Chinese and English speech, engage in real-time voice conversations, and change attributes such as emotion, intonation, speech rate, and dialect based on user instructions.
