@@ -19,7 +19,7 @@ A more detailed technical report will be published later.
 |         Model         | Type |      Download      |
 |:---------------------:| :---: |:------------------:|
 | GLM-4-Voice-Tokenizer | Speech Tokenizer | [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-tokenizer) |
-|    GLM-4-Voice-9B     | Chat Model |  [🤗 Huggingface](https://huggingface.co/cydxg/glm-4-voice-9b-int4)
+|    GLM-4-Voice-9B-int4     | Chat Model |  [🤗 Huggingface](https://huggingface.co/cydxg/glm-4-voice-9b-int4)
 | GLM-4-Voice-Decoder   | Speech Decoder |  [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-decoder)
 
 ## Usage
@@ -30,7 +30,7 @@ We provide a Web Demo that can be launched directly. Users can input speech or t
 ### Preparation
 First, download the repository
 ```shell
-git clone --recurse-submodules https://github.com/THUDM/GLM-4-Voice
+git clone --recurse-submodules https://github.com/PasiKoodaa/GLM-4-Voice
 cd GLM-4-Voice
 ```
 Then, install the dependencies.
