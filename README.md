@@ -70,15 +70,27 @@ https://github.com/user-attachments/assets/5f14862c-8c52-471e-ac7c-0c3d93f246b3
 
 * Use an excited voice to commentate a football match
 
-https://github.com/user-attachments/assets/0163de2d-e876-4999-b1bc-bbfa364b799b
+
+
+https://github.com/user-attachments/assets/c79e9489-fd8d-406a-8437-c1a5fe0de472
+
+
 
 * Tell a ghost story with a mournful voice
 
-https://github.com/user-attachments/assets/90534be5-9aa6-4f0b-883d-3f4996a12c8f
+
+
+https://github.com/user-attachments/assets/1f4b332b-af59-43cd-b65f-bb77ba1d68c5
+
+
 
 * Introduce how cold winter is with a Northeastern dialect
 
-https://github.com/user-attachments/assets/91ba54a1-8f5c-4cfe-8e87-16ed1ecf4037
+
+
+https://github.com/user-attachments/assets/f4833a26-ddda-4b71-a510-dab1599a0cfc
+
+
 
 * Say "Eat grapes without spitting out the skins" in Chongqing dialect
 
