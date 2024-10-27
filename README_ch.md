@@ -22,7 +22,7 @@ GLM-4-Voice 由三个部分组成：
 |         Model         | Type |                                                                     Download                                                                     |
 |:---------------------:| :---: |:------------------------------------------------------------------------------------------------------------------------------------------------:|
 | GLM-4-Voice-Tokenizer | Speech Tokenizer | [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-tokenizer) [🤖 ModelScope](https://modelscope.cn/models/ZhipuAI/glm-4-voice-tokenizer) |
-|    GLM-4-Voice-9B     | Chat Model |                                          [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-9b) [🤖 ModelScope](https://modelscope.cn/models/ZhipuAI/glm-4-voice-9b)                                           
+|    GLM-4-Voice-9B     | Chat Model |                                          [🤗 Huggingface](https://huggingface.co/cydxg/glm-4-voice-9b-int4)                                          
 | GLM-4-Voice-Decoder   | Speech Decoder |                                        [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-decoder) [🤖 ModelScope](https://modelscope.cn/models/ZhipuAI/glm-4-voice-decoder)                                        
 
 ## Usage
