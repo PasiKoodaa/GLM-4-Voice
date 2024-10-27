@@ -92,21 +92,15 @@ https://github.com/user-attachments/assets/f4833a26-ddda-4b71-a510-dab1599a0cfc
 
 
 
-* Say "Eat grapes without spitting out the skins" in Chongqing dialect
+* Cry about your lost cat
 
-https://github.com/user-attachments/assets/7eb72461-9e84-4d8e-9c58-1809cf6a8a9b
 
-* Recite a tongue twister with a Beijing accent
 
-https://github.com/user-attachments/assets/a9bb223e-9c0a-440d-8537-0a7f16e31651
+https://github.com/user-attachments/assets/6a3ee554-73c9-4919-a8a9-d77f31e18744
 
-  * Increase the speech rate
 
-https://github.com/user-attachments/assets/c98a4604-366b-4304-917f-3c850a82fe9f
 
-  * Even faster
 
-https://github.com/user-attachments/assets/d5ff0815-74f8-4738-b0f1-477cfc8dcc2d
 
 ## Acknowledge
 Some code in this project is from:
