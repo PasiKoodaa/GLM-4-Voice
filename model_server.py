@@ -57,7 +57,7 @@ class ModelWorker:
     def __init__(self, model_path, device='cuda'):
         self.device = device
         self.glm_model = AutoModel.from_pretrained(model_path, trust_remote_code=True,
-                                                   device=device).to(device).eval()
+                                                   device_map=device,low_cpu_mem_usage=True,load_in_4bit=True).eval()
         self.glm_tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 
     @torch.inference_mode()
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", type=str, default="localhost")
     parser.add_argument("--port", type=int, default=10000)
-    parser.add_argument("--model-path", type=str, default="THUDM/glm-4-voice-9b")
+    parser.add_argument("--model-path", type=str, default="glm-4-voice-9b-int4")
     args = parser.parse_args()
 
     worker = ModelWorker(args.model_path)
