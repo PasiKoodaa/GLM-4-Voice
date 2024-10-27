@@ -23,14 +23,15 @@ import torch
 audio_token_pattern = re.compile(r"<\|audio_(\d+)\|>")
 
 from flow_inference import AudioDecoder
+import asyncio
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument("--host", type=str, default="0.0.0.0")
+    parser.add_argument("--host", type=str, default="localhost")
     parser.add_argument("--port", type=int, default="8888")
     parser.add_argument("--flow-path", type=str, default="./glm-4-voice-decoder")
-    parser.add_argument("--model-path", type=str, default="THUDM/glm-4-voice-9b")
-    parser.add_argument("--tokenizer-path", type=str, default="THUDM/glm-4-voice-tokenizer")
+    parser.add_argument("--model-path", type=str, default="./glm-4-voice-9b-int4")
+    parser.add_argument("--tokenizer-path", type=str, default="./glm-4-voice-tokenizer")
     args = parser.parse_args()
 
     flow_config = os.path.join(args.flow_path, "config.yaml")
@@ -64,6 +65,7 @@ if __name__ == "__main__":
         return [], [], '', '', '', None, None
 
 
+    
     def inference_fn(
             temperature: float,
             top_p: float,
@@ -79,9 +81,7 @@ if __name__ == "__main__":
         if input_mode == "audio":
             assert audio_path is not None
             history.append({"role": "user", "content": {"path": audio_path}})
-            audio_tokens = extract_speech_token(
-                whisper_model, feature_extractor, [audio_path]
-            )[0]
+            audio_tokens = extract_speech_token(whisper_model, feature_extractor, [audio_path])[0]
             if len(audio_tokens) == 0:
                 raise gr.Error("No audio tokens extracted")
             audio_tokens = "".join([f"<|audio_{x}|>" for x in audio_tokens])
