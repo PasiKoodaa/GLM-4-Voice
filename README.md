@@ -30,7 +30,7 @@ We provide a Web Demo that can be launched directly. Users can input speech or t
 ### Preparation
 First, download the repository
 ```shell
-git clone --recurse-submodules https://github.com/PasiKoodaa/GLM-4-Voice
+git clone --recurse-submodules https://github.com/PasiKoodaa/GLM-4-Voice-12GB
 cd GLM-4-Voice
 ```
 Then, install the dependencies.
